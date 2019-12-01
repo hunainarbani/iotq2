@@ -68,6 +68,11 @@ fn main() {
     println!("Power of {} is {}",c2.name, c2.power_score());
     println!("Power of {} is {}",c3.name, c3.power_score());
     println!("Power of {} is {}",c4.name, c4.power_score());
+    //Properties on an objet is called struct
+    //Properties related to struck is called block
+    //Associated Funciton
+    //Function with in a impl block on certain object should return instance of that Object
 
+    //A function having self parameter in impl block of certain object known as method
     
 }
