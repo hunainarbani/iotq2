@@ -13,7 +13,7 @@ pub struct NewsArticle {
 
 impl Summary for NewsArticle {
     fn summarize(&self) -> String{
-        format!("{}\nWritten by {}", self.content, self.author)
+        format!("{}\nSubmitted by {}", self.content, self.author)
     }
 }
 #[derive(Debug)]
@@ -24,7 +24,7 @@ pub struct Tweet {
 
 impl Summary for Tweet {
     fn summarize(&self) -> String {
-        format!("New Tweet\n{}: {}", self.username, self.content)
+        format!("Checking Assignment Upload Status.\n{}: {}", self.username, self.content)
     }
 }
 //End Custom Types
@@ -39,7 +39,7 @@ fn main() {
 
     let newtweet = Tweet{
         username: String::from("harbani"),
-        content: String::from("Assignemnt is Uploaded.")
+        content: String::from("Assignemnt has been Uploaded.")
     };
 
     println!("{}",newtweet.summarize());
