@@ -25,9 +25,6 @@ fn main() {
     
     let book_01 = Book::getBook("Hunain Arbani".to_string(),
                        "The Kitaab".to_string());
-    
-
-
     println!("{}",book_01.BookInfo());
 
 
