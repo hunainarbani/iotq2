@@ -29,10 +29,11 @@ impl Student {
     }
 }
 
+
 fn main() {
     
-    let student_01 = Student::create_student("Hunain Arbani".to_string(),
-                                             32,"Bahria Auditorium".to_string());
+    let student_01 = Student::create_student(String::from("Hunain Arbani"),
+                                             32,String::from("Bahria Auditorium"));
 
     
     println!("{}",student_01.view_student());
