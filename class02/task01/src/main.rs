@@ -23,12 +23,14 @@ impl Book {
 
 fn main() {
     
-    let book_01 = Book{author: "Hunain Arbani".to_string(),
-                       title: "The Kitaab".to_string()
-    };
+    let book_01 = Book::getBook("Hunain Arbani".to_string(),
+                       "The Kitaab".to_string());
+    
 
 
     println!("{}",book_01.BookInfo());
+
+
 
 
 }
