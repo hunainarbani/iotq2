@@ -14,9 +14,6 @@ fn main() {
 
     println!("Area by Closure {}",area_circlec(4.3));
     println!("Area by Function {}",area_circlef(4.3));
-
-
 }
-
 
 
