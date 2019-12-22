@@ -52,7 +52,7 @@ fn main() {
     let pair_01 = Pair::new(100,62);
     pair_01.cmp_display();
 
-    let pair_02 = PairTwo::new(100,62);
+    let pair_02 = PairTwo::new(50,62);
     pair_02.cmp_display();
 
     /*
